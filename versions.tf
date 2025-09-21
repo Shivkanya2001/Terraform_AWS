@@ -1,0 +1,9 @@
+terraform{
+    required_version=">=1.50"
+    required_providers{
+        aws={
+            source="hashicorp/aws"
+            verson="~>5.0"
+        }
+    }
+}
